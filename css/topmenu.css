@@ -1,0 +1,75 @@
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:black;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+nav ul li {
+  display: table-cell;
+}
+nav ul li a {
+  font-family: mon;
+  font-weight: 700;
+	letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: tomato;
+}
+nav ul .active a {
+  color: tomato;
+  border-bottom: 3px solid tomato;
+}
+
+section {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+
+#home {
+  background: #111111;
+/*  top: 10px;*/
+}
+
+#about {
+  background: black;
+}
+
+#services {
+  background: black;
+/*   z-index: 0;*/
+}
+
+#projects {
+  background: black;
+}
+
+#contact{
+  background: black;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}

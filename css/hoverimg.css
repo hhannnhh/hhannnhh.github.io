@@ -1,0 +1,46 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+
+body {
+  --color-dark: rgb(64, 64, 64);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #6edcc0;
+  font-family: 'Signika', sans-serif;
+  color: var(--color-dark);
+}
+*/
+
+#about h2 {
+  font-size: 3.5rem;
+}
+
+#about .js-hover {
+  position: relative;
+  color: var(--color-dark);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--color-dark);
+}
+
+#about.js-hover:hover {
+  -webkit-text-fill-color: var(--color-dark);
+}
+
+#about.js-hover:hover svg {
+   display: block;
+   opacity: 1;
+}
+
+#about .js-hover svg {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  width: 300px;
+  bottom: -1rem;
+  left: -1rem;
+  z-index: -1;
+  
+}
